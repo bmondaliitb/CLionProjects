@@ -1,0 +1,1 @@
+/afs/cern.ch/user/b/bmondal/eos/tmp/mc16_13TeV.364114.Sherpa_221_NNPDF30NNLO_Zee_MAXHTPTV0_70_CVetoBVeto.deriv.DAOD_TOPQ1.e5299_s3126_r9364_p4029/DAOD_TOPQ1.20045089._000099.pool.root.1

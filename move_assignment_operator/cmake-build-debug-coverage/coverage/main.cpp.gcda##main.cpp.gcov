@@ -1,0 +1,124 @@
+        -:    0:Source:/home/bmondal/CLionProjects/move_assignment_operator/main.cpp
+        -:    0:Graph:/home/bmondal/CLionProjects/move_assignment_operator/cmake-build-debug-coverage/CMakeFiles/untitled.dir/main.cpp.gcno
+        -:    0:Data:/home/bmondal/CLionProjects/move_assignment_operator/cmake-build-debug-coverage/CMakeFiles/untitled.dir/main.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include <string>
+        -:    2:#include <iostream>
+        -:    3:#include <utility>
+        -:    4:
+        -:    5:struct A
+        -:    6:{
+        -:    7:    std::string s;
+        9:    8:    A() : s("test") { }
+        9:    8-block  0
+        9:    8-block  1
+    $$$$$:    8-block  2
+        -:    9:    A(const A& o) : s(o.s) { std::cout << "move failed!\n"; }
+        1:   10:    A(A&& o) : s(std::move(o.s)) { }
+        1:   10-block  0
+        1:   11:    A& operator=(const A& other)
+        -:   12:    {
+        1:   13:        s = other.s;
+        1:   13-block  0
+        1:   14:        std::cout << "copy assigned\n";
+        1:   15:        return *this;
+        -:   16:    }
+        4:   17:    A& operator=(A&& other)
+        -:   18:    {
+        4:   19:        s = std::move(other.s);
+        4:   19-block  0
+        4:   20:        std::cout << "move assigned\n";
+        4:   21:        return *this;
+        -:   22:    }
+        -:   23:};
+        -:   24:
+        1:   25:A f(A a) { return a; }
+        1:   25-block  0
+        -:   26:
+        -:   27:struct B : A
+        -:   28:{
+        -:   29:    std::string s2;
+        -:   30:    int n;
+        -:   31:    // implicit move assignment operator B& B::operator=(B&&)
+        -:   32:    // calls A's move assignment operator
+        -:   33:    // calls s2's move assignment operator
+        -:   34:    // and makes a bitwise copy of n
+        -:   35:};
+        -:   36:
+        -:   37:struct C : B
+        -:   38:{
+        2:   39:    ~C() { } // destructor prevents implicit move assignment
+        2:   39-block  0
+        -:   40:};
+        -:   41:
+        1:   42:struct D : B
+        1:   42-block  0
+        -:   43:{
+        2:   44:    D() { }
+        2:   44-block  0
+        2:   45:    ~D() { } // destructor would prevent implicit move assignment
+        2:   45-block  0
+        -:   46:    D& operator=(D&&) = default; // force a move assignment anyway
+        -:   47:};
+        -:   48:
+        1:   49:int main()
+        -:   50:{
+        2:   51:    A a1, a2;
+        1:   51-block  0
+        1:   51-block  1
+    $$$$$:   51-block  2
+    $$$$$:   51-block  3
+        1:   52:    std::cout << "Trying to move-assign A from rvalue temporary\n";
+        1:   52-block  0
+        1:   53:    a1 = f(A()); // move-assignment from rvalue temporary
+        1:   53-block  0
+        1:   53-block  1
+        1:   53-block  2
+    $$$$$:   53-block  3
+    $$$$$:   53-block  4
+    $$$$$:   53-block  5
+    $$$$$:   53-block  6
+        1:   54:    std::cout << "Trying to move-assign A from xvalue\n";
+        1:   55:    a2 = std::move(a1); // move-assignment from xvalue
+        1:   55-block  0
+        -:   56:
+        1:   57:    std::cout << "Trying to move-assign B\n";
+        1:   57-block  0
+        2:   58:    B b1, b2;
+        1:   58-block  0
+        1:   58-block  1
+    $$$$$:   58-block  2
+    $$$$$:   58-block  3
+        1:   59:    std::cout << "Before move, b1.s = \"" << b1.s << "\"\n";
+        1:   59-block  0
+        1:   59-block  1
+        1:   59-block  2
+        1:   60:    b2 = std::move(b1); // calls implicit move assignment
+        1:   60-block  0
+        1:   61:    std::cout << "After move, b1.s = \"" << b1.s << "\"\n";
+        1:   61-block  0
+        1:   61-block  1
+        1:   61-block  2
+        -:   62:
+        1:   63:    std::cout << "Trying to move-assign C\n";
+        1:   63-block  0
+        2:   64:    C c1, c2;
+        1:   64-block  0
+        1:   64-block  1
+    $$$$$:   64-block  2
+    $$$$$:   64-block  3
+        1:   65:    c2 = std::move(c1); // calls the copy assignment operator
+        1:   65-block  0
+        -:   66:
+        1:   67:    std::cout << "Trying to move-assign D\n";
+        1:   67-block  0
+        2:   68:    D d1, d2;
+        1:   68-block  0
+        1:   68-block  1
+        1:   68-block  2
+    $$$$$:   68-block  3
+    $$$$$:   68-block  4
+        1:   69:    d2 = std::move(d1);
+        1:   69-block  0
+        1:   70:}
+        1:   70-block  0
