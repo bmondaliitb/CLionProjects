@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/python/MyAnalysis/MyMuonAnalysisAlgorithms.py"
+		},
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/python/MyAnalysis/__init__.py"
+		},
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/python/MyMuonAnalysisAlgorithms.py"
+		},
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/python/__init__.py"
+		},
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/python/MyAnalysis/MyMuonAnalysisAlgorithms.py.rule"
+		},
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/python/MyAnalysis/__init__.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"MyAnalysis"
+		],
+		"name" : "MyAnalysisPythonInstall"
+	}
+}

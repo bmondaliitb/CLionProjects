@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/util/main.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"MyAnalysis"
+		],
+		"name" : "main"
+	}
+}

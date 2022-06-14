@@ -1,0 +1,5 @@
+# Target labels
+ MyAnalysis
+# Source files and their labels
+/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/mainExeAttribSet
+/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/mainExeAttribSet.rule

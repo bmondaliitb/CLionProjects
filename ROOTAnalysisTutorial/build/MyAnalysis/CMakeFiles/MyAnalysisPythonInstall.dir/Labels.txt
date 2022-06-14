@@ -1,0 +1,9 @@
+# Target labels
+ MyAnalysis
+# Source files and their labels
+/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/python/MyAnalysis/MyMuonAnalysisAlgorithms.py
+/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/python/MyAnalysis/__init__.py
+/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/python/MyMuonAnalysisAlgorithms.py
+/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/python/__init__.py
+/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/python/MyAnalysis/MyMuonAnalysisAlgorithms.py.rule
+/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/python/MyAnalysis/__init__.py.rule

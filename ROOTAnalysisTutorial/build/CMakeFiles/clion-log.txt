@@ -1,0 +1,42 @@
+/home/bmondal/local_software/clion-2020.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/bmondal/CLionProjects/ROOTAnalysisTutorial/source
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Found AnalysisBase: /cvmfs/atlas-nightlies.cern.ch/repo/sw/21.2_AnalysisBase_x86_64-centos7-gcc8-opt/2021-01-30T0353/AnalysisBase/21.2.158/InstallArea/x86_64-centos7-gcc8-opt (version: 21.2.158)
+-- Found AnalysisBaseExternals: /cvmfs/atlas-nightlies.cern.ch/repo/sw/21.2_AnalysisBase_x86_64-centos7-gcc8-opt/2021-01-30T0353/AnalysisBaseExternals/21.2.158/InstallArea/x86_64-centos7-gcc8-opt (version: 21.2.158)
+-- Setting ATLAS specific build flags
+-- checker_gccplugins library not found
+-- Package(s) in AnalysisBaseExternals: 22
+-- Using the LCG modules without setting up a release
+-- Package(s) in AnalysisBase: 196
+-- Configuring ATLAS project with name "UserAnalysis" and version "1.0.0"
+-- Using build type: Debug
+-- Using platform name: x86_64-centos7-gcc8-opt
+-- Cleaning stale files from build area
+-- Unit tests will be built by default
+-- Found 1 package(s)
+-- Considering package 1 / 1
+-- No package filtering rules read
+-- Configuring the build of package: MyAnalysis
+-- Number of packages configured: 1
+-- Time for package configuration: 0 seconds
+-- Including the packages from project AnalysisBase - 21.2.158...
+-- Including the packages from project AnalysisBaseExternals - 21.2.158...
+-- Generated file: /home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/packages.txt
+-- Generated file: /home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/compilers.txt
+-- Generated file: /home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/ReleaseData
+-- Generating external environment configuration
+-- Writing runtime environment to file: /home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/env_setup.sh
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/bmondal/CLionProjects/ROOTAnalysisTutorial/build

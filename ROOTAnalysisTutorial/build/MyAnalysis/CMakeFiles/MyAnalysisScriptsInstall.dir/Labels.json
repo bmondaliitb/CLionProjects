@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/bin/ATestRun_eljob.py"
+		},
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/share/ATestRun_eljob.py"
+		},
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/bin/ATestRun_eljob.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"MyAnalysis"
+		],
+		"name" : "MyAnalysisScriptsInstall"
+	}
+}

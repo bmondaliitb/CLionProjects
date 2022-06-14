@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/MyAnalysisDictDictGen"
+		},
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/MyAnalysisDictDictGen.rule"
+		},
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/MyAnalysisDict.dsomap.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"MyAnalysis"
+		],
+		"name" : "MyAnalysisDictDictGen"
+	}
+}

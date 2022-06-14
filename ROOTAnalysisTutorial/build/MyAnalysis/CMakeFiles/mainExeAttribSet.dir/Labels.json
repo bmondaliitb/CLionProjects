@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/mainExeAttribSet"
+		},
+		{
+			"file" : "/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/mainExeAttribSet.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"MyAnalysis"
+		],
+		"name" : "mainExeAttribSet"
+	}
+}

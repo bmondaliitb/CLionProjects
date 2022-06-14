@@ -1,0 +1,6 @@
+# Target labels
+ MyAnalysis
+# Source files and their labels
+/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/bin/ATestRun_eljob.py
+/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/share/ATestRun_eljob.py
+/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/bin/ATestRun_eljob.py.rule

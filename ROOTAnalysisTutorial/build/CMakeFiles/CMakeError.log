@@ -1,0 +1,43 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_dab83/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dab83.dir/build.make CMakeFiles/cmTC_dab83.dir/build
+gmake[1]: Entering directory `/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dab83.dir/src.c.o
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles/cmTC_dab83.dir/src.c.o -c /home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dab83
+/cvmfs/atlas.cern.ch/repo/ATLASLocalRootBase/x86_64/Cmake/3.18.3/Linux-x86_64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dab83.dir/link.txt --verbose=1
+/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/gcc  -DCMAKE_HAVE_LIBC_PTHREAD  -Wl,--as-needed -Wl,--hash-style=both  CMakeFiles/cmTC_dab83.dir/src.c.o -o cmTC_dab83 
+CMakeFiles/cmTC_dab83.dir/src.c.o: In function `main':
+src.c:(.text+0x2d): undefined reference to `pthread_create'
+src.c:(.text+0x39): undefined reference to `pthread_detach'
+src.c:(.text+0x45): undefined reference to `pthread_cancel'
+src.c:(.text+0x56): undefined reference to `pthread_join'
+src.c:(.text+0x6a): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTC_dab83] Error 1
+gmake[1]: Leaving directory `/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_dab83/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
