@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ReadRootFile"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\root_build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ReadRootFile">
+				<Option output="/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/ReadRootFile" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/buddhadebmondal/root_src/io/io/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_build/ginclude"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/base/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/foundation/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/cont/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/gui/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/meta/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/clib/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/rint/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/zip/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/thread/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/textinput/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/unix/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/macosx/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/net/net/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/math/physics/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/math/matrix/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/math/mathcore/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/tree/tree/inc"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReadRootFile"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ReadRootFile/fast">
+				<Option output="/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/ReadRootFile" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/buddhadebmondal/root_src/io/io/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_build/ginclude"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/base/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/foundation/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/cont/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/gui/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/meta/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/clib/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/rint/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/zip/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/thread/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/textinput/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/unix/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/core/macosx/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/net/net/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/math/physics/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/math/matrix/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/math/mathcore/inc"/>
+					<Add directory="/Users/buddhadebmondal/root_src/tree/tree/inc"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReadRootFile/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/buddhadebmondal/CLionProjects/ReadRootFile/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/buddhadebmondal/CLionProjects/ReadRootFile/main.cpp">
+			<Option target="ReadRootFile"/>
+		</Unit>
+		<Unit filename="/Users/buddhadebmondal/CLionProjects/ReadRootFile/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/buddhadebmondal/CLionProjects/ReadRootFile/../../root_build/ROOTConfig-targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\root_build\"/>
+		</Unit>
+		<Unit filename="/Users/buddhadebmondal/CLionProjects/ReadRootFile/../../root_build/ROOTConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\root_build\"/>
+		</Unit>
+		<Unit filename="/Users/buddhadebmondal/CLionProjects/ReadRootFile/../../root_build/ROOTConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\root_build\"/>
+		</Unit>
+		<Unit filename="/Users/buddhadebmondal/CLionProjects/ReadRootFile/../../root_build/RootMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\root_build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/buddhadebmondal/CLionProjects/mutex/main.cpp
+iostream
+-
+thread
+/Users/buddhadebmondal/CLionProjects/mutex/thread
+vector
+/Users/buddhadebmondal/CLionProjects/mutex/vector
+mutex
+/Users/buddhadebmondal/CLionProjects/mutex/mutex
+
