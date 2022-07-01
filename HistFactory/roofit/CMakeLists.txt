@@ -1,0 +1,14 @@
+# Copyright (C) 1995-2019, Rene Brun and Fons Rademakers.
+# All rights reserved.
+#
+# For the licensing terms see $ROOTSYS/LICENSE.
+# For the list of contributors see $ROOTSYS/README/CREDITS.
+
+add_subdirectory(roofitcore)
+add_subdirectory(roofit)
+add_subdirectory(roofitmore)
+add_subdirectory(roostats)
+add_subdirectory(histfactory)
+#if(xml)
+#  add_subdirectory(histfactory)
+#endif()

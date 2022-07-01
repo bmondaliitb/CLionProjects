@@ -1,0 +1,17 @@
+<!--
+This xml file created automatically on: 
+2022-6-30
+-->
+<!DOCTYPE Combination  SYSTEM 'HistFactorySchema.dtd'>
+
+<Combination OutputFilePrefix="./results/example_UsingC" >
+
+
+  <Input>./xmlFromCCode/meas_channel1.xml</Input>
+
+  <Measurement Name="meas" Lumi="1" LumiRelErr="0.1" ExportOnly="False"  >
+    <POI>SigXsecOverSM</POI>  
+    <ParamSetting Const="True">alpha_syst1 Lumi</ParamSetting>
+  </Measurement> 
+
+</Combination>
