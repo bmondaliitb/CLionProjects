@@ -1,6 +1,0 @@
-# Target labels
- MyAnalysis
-# Source files and their labels
-/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/MyAnalysis/MyAnalysisDict.h
-/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/MyAnalysis/MyxAODAnalysis.h
-/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/Root/MyxAODAnalysis.cxx

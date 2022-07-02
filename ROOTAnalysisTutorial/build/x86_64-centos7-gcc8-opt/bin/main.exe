@@ -1,5 +1,0 @@
-#!/bin/sh
-set -e
-echo "WARNING Please stop using main.exe, and use main instead"
-echo ""
-exec main "$@"

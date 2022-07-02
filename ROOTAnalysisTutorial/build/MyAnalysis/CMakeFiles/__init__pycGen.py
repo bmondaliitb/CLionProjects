@@ -1,1 +1,0 @@
-import py_compile; py_compile.compile( '/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/python/__init__.py', cfile = '/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/x86_64-centos7-gcc8-opt/python/MyAnalysis/__init__.pyc', doraise = True )

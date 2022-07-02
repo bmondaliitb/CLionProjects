@@ -1,7 +1,0 @@
-# Target labels
- MyAnalysis
-# Source files and their labels
-/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/MyAnalysisDictReflexDict.cxx
- MyAnalysis
-/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/MyAnalysis/MyAnalysisDict.h
-/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/MyAnalysis/selection.xml

@@ -1,4 +1,0 @@
-# Target labels
- MyAnalysis
-# Source files and their labels
-/home/bmondal/CLionProjects/ROOTAnalysisTutorial/source/MyAnalysis/util/main.cxx

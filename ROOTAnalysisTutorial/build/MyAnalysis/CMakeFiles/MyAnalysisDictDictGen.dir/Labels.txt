@@ -1,6 +1,0 @@
-# Target labels
- MyAnalysis
-# Source files and their labels
-/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/MyAnalysisDictDictGen
-/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/MyAnalysisDictDictGen.rule
-/home/bmondal/CLionProjects/ROOTAnalysisTutorial/build/MyAnalysis/CMakeFiles/MyAnalysisDict.dsomap.rule

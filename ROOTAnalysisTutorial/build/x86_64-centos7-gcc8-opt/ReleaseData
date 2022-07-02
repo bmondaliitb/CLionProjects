@@ -1,9 +1,0 @@
-[release_metadata]
-release:
-nightly name:main
-project name:UserAnalysis
-nightly release:aa01de2
-date:2021-01-31T1301
-compiler:GNU-8.3.0
-cxxpath:/cvmfs/sft.cern.ch/lcg/releases/gcc/8.3.0-cebb0/x86_64-centos7/bin/g++
-cmake:3.17.3
