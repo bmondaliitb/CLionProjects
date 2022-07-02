@@ -1,19 +1,9 @@
-# Copyright (C) 1995-2019, Rene Brun and Fons Rademakers.
-# All rights reserved.
-#
-# For the licensing terms see $ROOTSYS/LICENSE.
-# For the list of contributors see $ROOTSYS/README/CREDITS.
 
-############################################################################
-# CMakeLists.txt file for building ROOT roofitcore package
-# @author Pere Mato, CERN
 ############################################################################
 find_package(ROOT CONFIG REQUIRED COMPONENTS Core Smatrix MathCore RIO)
 include(${ROOT_USE_FILE})
 include_directories(${CMAKE_SOURCE_DIR}/roofit/roofitcore)
-#ROOT_STANDARD_LIBRARY_PACKAGE(RooFitCore
 root_generate_dictionary (G__RooFitCore
-#  HEADERS
     Roo1DTable.h
     RooAbsAnaConvPdf.h
     RooAbsArg.h
@@ -233,7 +223,6 @@ root_generate_dictionary (G__RooFitCore
     RooWrapperPdf.h
     RooFitLegacy/RooCatTypeLegacy.h
     RooFitLegacy/RooCategorySharedProperties.h LINKDEF inc/LinkDef.h)
-#  SOURCES
 add_library(RooFitCore SHARED  src/BidirMMapPipe.cxx
     src/BidirMMapPipe.h
     src/Roo1DTable.cxx
@@ -450,32 +439,3 @@ target_link_libraries(RooFitCore PUBLIC ROOT::Core ROOT::Hist ROOT::Graf ROOT::M
         ROOT::MathCore ROOT::Foam ROOT::Smatrix)
 target_include_directories(RooFitCore PUBLIC ${CMAKE_SOURCE_DIR}/roofit/roofitcore/inc/)
 target_include_directories(RooFitCore PUBLIC ${CMAKE_SOURCE_DIR}/roofit/roofitcore/)
-#  DICTIONARY_OPTIONS
-#    "-writeEmptyRootPCM"
-#  DEPENDENCIES
-#    Core
-#    Hist
-#    Graf
-#    Matrix
-#    Tree
-#    Minuit
-#    RIO
-#    MathCore
-#    Foam
-#    Smatrix
-#  LINKDEF
-#    inc/LinkDef.h
-#)
-
-#list(APPEND fitcore_incl ${CMAKE_SOURCE_DIR}/roofit/roofitcore/inc)
-#
-#if(vdt OR builtin_vdt)
-#   target_include_directories(RooFitCore PRIVATE ${VDT_INCLUDE_DIRS})
-#   list(APPEND fitcore_incl ${VDT_INCLUDE_DIRS})
-#endif()
-#
-#foreach(incl ${fitcore_incl})
-#   target_include_directories(RooFitCore PUBLIC $<BUILD_INTERFACE:${incl}>)
-#endforeach()
-#
-#ROOT_ADD_TEST_SUBDIRECTORY(test)

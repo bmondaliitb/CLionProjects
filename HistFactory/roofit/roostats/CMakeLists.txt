@@ -1,18 +1,8 @@
-# Copyright (C) 1995-2019, Rene Brun and Fons Rademakers.
-# All rights reserved.
-#
-# For the licensing terms see $ROOTSYS/LICENSE.
-# For the list of contributors see $ROOTSYS/README/CREDITS.
 
-############################################################################
-# CMakeLists.txt file for building ROOT roostats package
-# @author Pere Mato, CERN
-############################################################################
+find_package(ROOT CONFIG REQUIRED COMPONENTS Core Smatrix MathCore RIO)
 include(${ROOT_USE_FILE})
-include_directories(${CMAKE_SOURCE_DIR}/roofit/roostats) # this is very important this helps to include directories
-#ROOT_STANDARD_LIBRARY_PACKAGE(RooStats
+include_directories(${CMAKE_SOURCE_DIR}/roofit/roostats/inc) # this is very important this helps to include directories
 root_generate_dictionary(G__RooStats
-  #HEADERS
     RooStats/AsymptoticCalculator.h
     RooStats/BayesianCalculator.h
     RooStats/BernsteinCorrection.h
@@ -127,9 +117,7 @@ add_library(RooStats SHARED   src/AsymptoticCalculator.cxx
     src/ToyMCStudy.cxx
     src/UniformProposal.cxx
     src/UpperLimitMCSModule.cxx G__RooStats.cxx)
-#  DICTIONARY_OPTIONS
-#    "-writeEmptyRootPCM"
-#  DEPENDENCIES
+
 target_link_libraries(RooStats PUBLIC
     ROOT::Core
     RooFit

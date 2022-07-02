@@ -20,7 +20,7 @@ hypotheses.
 */
 
 // include header file of this class
-#include "inc/RooStats/HypoTestInverterPlot.h"
+#include "RooStats/HypoTestInverterPlot.h"
 
 // include other header files
 #include "RooStats/HybridResult.h"
