@@ -1,6 +1,6 @@
 <!--
 This xml file created automatically on: 
-2022-6-30
+2024-3-5
 -->
 <!DOCTYPE Channel  SYSTEM 'HistFactorySchema.dtd'>  
 
@@ -12,7 +12,7 @@ This xml file created automatically on:
 
     <Sample Name="signal"  HistoPath=""  HistoName="signal"  InputFile="./data/example.root"  NormalizeByTheory="True" >
       <OverallSys Name="syst1"  High="1.05"  Low="0.95"   /> 
-      <NormFactor Name="SigXsecOverSM"  Val="1"  High="3"  Low="0"  Const="False"   /> 
+      <NormFactor Name="SigXsecOverSM"  Val="1"  High="2"  Low="-2"   /> 
     </Sample>
 
 

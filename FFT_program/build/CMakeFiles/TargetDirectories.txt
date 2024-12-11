@@ -1,0 +1,5 @@
+/Users/buddha/CLionProjects/FFT_program/build/CMakeFiles/G__Analysis.dir
+/Users/buddha/CLionProjects/FFT_program/build/CMakeFiles/Analysis.dir
+/Users/buddha/CLionProjects/FFT_program/build/CMakeFiles/Analysis_exe.dir
+/Users/buddha/CLionProjects/FFT_program/build/CMakeFiles/edit_cache.dir
+/Users/buddha/CLionProjects/FFT_program/build/CMakeFiles/rebuild_cache.dir

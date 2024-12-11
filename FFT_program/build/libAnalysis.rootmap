@@ -1,0 +1,4 @@
+[ libAnalysis.dylib ]
+# List of selected classes
+class RooMyPDF_BW
+header RooMyPDF_BW.h

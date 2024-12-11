@@ -29,6 +29,7 @@ void hf001_example() {
 
     meas.SetOutputFilePrefix( "./results/example_UsingC" );
     meas.SetPOI( "SigXsecOverSM" );
+    //meas.SetPOI( "SigXsecOverSM_1" );
     meas.AddConstantParam("alpha_syst1");
     meas.AddConstantParam("Lumi");
 
@@ -50,7 +51,8 @@ void hf001_example() {
     // Create the signal sample
     Sample signal( "signal", "signal", InputFile );
     signal.AddOverallSys( "syst1",  0.95, 1.05 );
-    signal.AddNormFactor( "SigXsecOverSM", 1, 0, 3 );
+    signal.AddNormFactor( "SigXsecOverSM", 1, -2, 2 );
+    //signal.AddNormFactor( "SigXsecOverSM_1", 1, -2, 2 );
     chan.AddSample( signal );
 
     // Background 1
