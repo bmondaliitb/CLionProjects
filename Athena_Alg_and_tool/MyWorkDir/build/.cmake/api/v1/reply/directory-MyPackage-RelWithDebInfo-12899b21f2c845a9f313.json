@@ -1,0 +1,219 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"atlas_subdir",
+			"_atlas_install_headers",
+			"atlas_add_library",
+			"atlas_detach_debug_info",
+			"atlas_add_component"
+		],
+		"files" : 
+		[
+			"/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-08T2100/Athena/25.0.31/InstallArea/x86_64-el9-gcc13-opt/cmake/modules/AtlasFunctions.cmake",
+			"/home/buddha/Storage/Work/CLion-Pycharm-Projects/CLionProjects/Athena_Alg_and_tool/MyWorkDir/athena/MyPackage/CMakeLists.txt",
+			"/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-08T2100/Athena/25.0.31/InstallArea/x86_64-el9-gcc13-opt/cmake/modules/AtlasInstallFunctions.cmake",
+			"/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-08T2100/Athena/25.0.31/InstallArea/x86_64-el9-gcc13-opt/cmake/modules/AtlasLibraryFunctions.cmake",
+			"/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-08T2100/Athena/25.0.31/InstallArea/x86_64-el9-gcc13-opt/cmake/modules/AtlasInternals.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 654,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 3,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 261,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 53,
+				"parent" : 4
+			},
+			{
+				"command" : 0,
+				"file" : 2,
+				"line" : 86,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 279,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 158,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 295,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 330,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 279,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 158,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 295,
+				"parent" : 11
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 385,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 3,
+				"line" : 388,
+				"parent" : 10
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "src/MyPackage",
+			"paths" : 
+			[
+				{
+					"from" : "/home/buddha/Storage/Work/CLion-Pycharm-Projects/CLionProjects/Athena_Alg_and_tool/MyWorkDir/athena/MyPackage",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Debug",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"/mnt/nvme0n1p4/Work/CLion-Pycharm-Projects/CLionProjects/Athena_Alg_and_tool/MyWorkDir/build/x86_64-el9-gcc13-opt/lib/libMyPackageLib.so.dbg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"x86_64-el9-gcc13-opt/lib/libMyPackageLib.so"
+			],
+			"targetId" : "MyPackageLib::@1912d18f9f00ff6f3ba7",
+			"targetIndex" : 24,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 13,
+			"component" : "Debug",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"/mnt/nvme0n1p4/Work/CLion-Pycharm-Projects/CLionProjects/Athena_Alg_and_tool/MyWorkDir/build/x86_64-el9-gcc13-opt/lib/libMyPackage.so.dbg"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"x86_64-el9-gcc13-opt/lib/libMyPackage.so"
+			],
+			"targetId" : "MyPackage::@1912d18f9f00ff6f3ba7",
+			"targetIndex" : 19,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 15,
+			"component" : "Unspecified",
+			"destination" : "python/MyPackage",
+			"isOptional" : true,
+			"paths" : 
+			[
+				"/mnt/nvme0n1p4/Work/CLion-Pycharm-Projects/CLionProjects/Athena_Alg_and_tool/MyWorkDir/build/x86_64-el9-gcc13-opt/python/MyPackage/MyPackageConf.py"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "MyPackage",
+		"source" : "/home/buddha/Storage/Work/CLion-Pycharm-Projects/CLionProjects/Athena_Alg_and_tool/MyWorkDir/athena/MyPackage"
+	}
+}

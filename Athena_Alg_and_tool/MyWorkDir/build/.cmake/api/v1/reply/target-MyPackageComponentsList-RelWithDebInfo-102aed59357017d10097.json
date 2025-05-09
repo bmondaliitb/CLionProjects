@@ -1,0 +1,98 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"atlas_generate_componentslist",
+			"atlas_add_component"
+		],
+		"files" : 
+		[
+			"/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-08T2100/Athena/25.0.31/InstallArea/x86_64-el9-gcc13-opt/cmake/modules/AtlasLibraryFunctions.cmake",
+			"/home/buddha/Storage/Work/CLion-Pycharm-Projects/CLionProjects/Athena_Alg_and_tool/MyWorkDir/athena/MyPackage/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 344,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 817,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "MyPackage::@1912d18f9f00ff6f3ba7"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "MyPackage"
+	},
+	"id" : "MyPackageComponentsList::@1912d18f9f00ff6f3ba7",
+	"name" : "MyPackageComponentsList",
+	"paths" : 
+	{
+		"build" : "MyPackage",
+		"source" : "/home/buddha/Storage/Work/CLion-Pycharm-Projects/CLionProjects/Athena_Alg_and_tool/MyWorkDir/athena/MyPackage"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/home/buddha/Storage/Work/CLion-Pycharm-Projects/CLionProjects/Athena_Alg_and_tool/MyWorkDir/build/MyPackage/CMakeFiles/MyPackageComponentsList",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/buddha/Storage/Work/CLion-Pycharm-Projects/CLionProjects/Athena_Alg_and_tool/MyWorkDir/build/MyPackage/CMakeFiles/MyPackageComponentsList.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/buddha/Storage/Work/CLion-Pycharm-Projects/CLionProjects/Athena_Alg_and_tool/MyWorkDir/build/x86_64-el9-gcc13-opt/lib/libMyPackage.components.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}
