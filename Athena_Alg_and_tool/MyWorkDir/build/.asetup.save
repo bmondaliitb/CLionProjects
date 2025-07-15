@@ -61,23 +61,23 @@ source $ATLAS_LOCAL_ROOT_BASE/packageSetups/localSetup.sh --quiet "cmake 3.29.5"
 export FRONTIER_LOG_LEVEL="warning"
 export ATLAS_DB_AREA="/cvmfs/atlas.cern.ch/repo/sw/database"
 export DBRELEASE_OVERRIDE="current"
-export AtlasVersion="25.0.31"
+export AtlasVersion="25.0.32"
 export AtlasProject="Athena"
-export AtlasBaseDir="/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-08T2100"
-export ATLAS_RELEASE_BASE="/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-08T2100"
+export AtlasBaseDir="/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-10T2100"
+export ATLAS_RELEASE_BASE="/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-10T2100"
 export AtlasBuildBranch="master"
-export AtlasArea="/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-08T2100/Athena/25.0.31"
+export AtlasArea="/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-10T2100/Athena/25.0.32"
 export AtlasReleaseType="nightly"
-export AtlasBuildStamp="2025-05-08T2100"
+export AtlasBuildStamp="2025-05-10T2100"
 export SITEROOT="/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt"
 export ATLAS_RELEASEDATA="/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/atlas/offline/ReleaseData"
 export LCG_RELEASE_BASE="/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/sw/lcg/releases"
 export G4PATH="/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/Geant4"
 export TDAQ_RELEASE_BASE="/cvmfs/atlas.cern.ch/repo/sw/tdaq"
-source /cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-08T2100/Athena/25.0.31/InstallArea/x86_64-el9-gcc13-opt/setup.sh
+source /cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-10T2100/Athena/25.0.32/InstallArea/x86_64-el9-gcc13-opt/setup.sh
 asetup_status=$?
 if [ ${asetup_status} -ne 0 ]; then
-    \echo "AtlasSetup(ERROR): sourcing release setup script (/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-08T2100/Athena/25.0.31/InstallArea/x86_64-el9-gcc13-opt/setup.sh) failed"
+    \echo "AtlasSetup(ERROR): sourcing release setup script (/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-10T2100/Athena/25.0.32/InstallArea/x86_64-el9-gcc13-opt/setup.sh) failed"
 fi
 export TestArea="/mnt/nvme0n1p4/Work/CLion-Pycharm-Projects/CLionProjects/Athena_Alg_and_tool/MyWorkDir/build"
 echo $LD_LIBRARY_PATH | egrep "LCG_[^/:]*/curl/" >/dev/null
@@ -98,9 +98,9 @@ for onepath in $(echo $LD_LIBRARY_PATH | tr ":" "\n"); do
 done
 
 #Release Summary as follows:
-#Release base=/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-08T2100
+#Release base=/cvmfs/atlas-nightlies.cern.ch/repo/sw/main_Athena_x86_64-el9-gcc13-opt/2025-05-10T2100
 #Release project=Athena
-#Release releaseNum=25.0.31
+#Release releaseNum=25.0.32
 #Release asconfig=x86_64-el9-gcc13-opt
 
 # Execute user-specified epilog
